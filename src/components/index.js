@@ -7,6 +7,7 @@ import Background from "./Background";
 import Skills from "./Skills";
 import Footer from "./Footer";
 import Experience from "./Experience";
+import CLIMockup from "./CLIMockup";
 
 export {
     About,
@@ -18,4 +19,5 @@ export {
     Hero,
     Navbar,
     Projects,
+    CLIMockup,
 }

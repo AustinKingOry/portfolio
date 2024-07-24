@@ -1,13 +1,18 @@
 import { profile } from '../assets/images';
 import { statistics } from '../constants';
 import 'animate.css';
+import CLIMockup from './CLIMockup';
 const Hero = () => {
+	const cliCommands = [
+		'git init',
+	];
     return (
         <section id="intro" className="max-sm:px-6 py-16 max-w-7xl mx-auto">
-            <div className="flex flex-col md:flex-row gap-4 px-4">
+            <div className="flex flex-col-reverse md:flex-row gap-4 px-4">
                 <div className="flex-col justify-start items-start md:w-2/4 gap-6 inline-flex">
                     <div className="flex-col justify-start items-start gap-4 flex">
                         <div className="flex-col justify-start items-start flex">
+                        <CLIMockup commands={cliCommands} language="bash" />
                         <h1 className="text-[#132138] text-7xl font-bold font-['Work Sans'] leading-[84px] animate__animated animate__zoomInDown"><span className='text-orange-500'>Hello</span>, I&rsquo;m<br/>Austin King&rsquo;ori</h1>
                         </div>
                     </div>
