@@ -9,7 +9,7 @@ const Projects = () => {
         AOS.init({ duration: 300 });
     }, []);
   return (
-    <section id="projects" className="py-8 max-w-7xl mx-auto max-sm:mx-6 max-lg:px-6 max-sm:px-0">
+    <section id="projects" className="py-8 max-w-7xl mx-auto max-sm:mx-6 max-lg:px-6 bg:px-4 max-sm:px-0">
         <div className="container mx-auto">
             <h2 className="text-3xl text-white font-bold mb-8 text-center">Favorite Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
