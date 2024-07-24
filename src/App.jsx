@@ -1,4 +1,4 @@
-import {Navbar, About, Projects, Contact, Resume, Hero, Background} from './components'
+import {Navbar, About, Skills, Projects, Contact, Hero, Background, Footer, Experience} from './components'
 const App = () => {
   return (
     <div className="relative overflow-hidden min-h-screen">
@@ -7,9 +7,11 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
+      <Skills />
       <Projects />
-      <Resume />
       <Contact />
+      <Footer />
       </div>
     </div>
   );

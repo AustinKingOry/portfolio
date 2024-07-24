@@ -3,15 +3,19 @@ import About from "./About";
 import Hero from "./Hero"
 import Navbar from "./Navbar";
 import Projects from "./Projects";
-import Resume from "./Resume";
 import Background from "./Background";
+import Skills from "./Skills";
+import Footer from "./Footer";
+import Experience from "./Experience";
 
 export {
     About,
+    Skills,
     Background,
     Contact,
+    Experience,
+    Footer,
     Hero,
     Navbar,
     Projects,
-    Resume,
 }
