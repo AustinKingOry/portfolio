@@ -15,10 +15,10 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project, index)=>(
                     <div key={index} className="project bg-gray-50 overflow-hidden rounded-lg shadow flex flex-col max-w-96" data-aos="fade-up">
-                    <div className="w-96 h-fit p-2 flex flex-row gap-1.5 bg-gray-100">
+                    <div className="max-w-96 h-fit p-2 flex flex-row gap-1.5 bg-gray-100">
                         <img src={project.imgURL} alt={project.name} className='w-24 h-24 bg-gray-50 object-contain' />
                         <div className="flex flex-col p-2 gap-1.5">
-                            <h3 className="text-lg font-semibold">{project.name}</h3>
+                            <h3 className="text-lg font-semibold break-words">{project.name}</h3>
                             <p className='text-xs text-purple-700 font-medium'>{project.category}</p>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ const Experience = () => {
         AOS.init({ duration: 300 });
     }, []);
   return (
-    <section id='experience' className="p-10 md:p-20 bg-[#f0f1f3]/50 w-full justify-start items-center gap-20 md:inline-flex max-md:flex-col">
+    <section id='experience' className="py-10 px-6 md:p-20 bg-[#f0f1f3]/50 w-full justify-start items-center gap-20 md:inline-flex max-md:flex-col">
         <div className="flex-col justify-start items-start gap-[50px] inline-flex">
             <div className="flex-col justify-start items-start gap-6 flex">
             <h2 className="text-[#333333] text-5xl font-semibold font-['Work Sans'] leading-[56px]">What I do?</h2>

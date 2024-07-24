@@ -20,7 +20,7 @@ const Hero = () => {
                         <span className="text-gray-700 text-lg font-normal font-['Work Sans'] leading-normal"> based in Kenya with a passion for solving world problems through technology. I love working on backend systems but am also diving into frontend and mobile development.</span>
                     </div>
                     <a href="#contact" className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-base px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Say Hello!</a>
-                    <div className="bg-gray-400/50 border border-gray-300 px-5 py-4 rounded-md flex flex-col max-sm:divide-y-2 sm:flex-row sm:divide-x-2 divide-gray-200">
+                    <div className="bg-gray-400/50 border border-gray-300 px-5 py-4 rounded-md max-[480px]:w-full flex flex-col max-sm:divide-y-2 sm:flex-row sm:divide-x-2 divide-gray-200">
                     {statistics.map((stat,index)=>(
                         <div key={index} className="flex flex-col items-center justify-center px-3 min-w-40">
                             <p className="font-bold text-2xl text-gray-800">{stat.value}</p>
@@ -30,7 +30,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="sm:px-4 md:w-2/4 md:justify-center md:flex">
-                    <img className="w-[400px] h-[500px] rounded-[25px] shadow object-cover" src={profile}></img>
+                    <img className="w-[400px] sm:h-[500px] rounded-[25px] shadow object-cover" src={profile}></img>
                 </div>
             </div>
         </section>

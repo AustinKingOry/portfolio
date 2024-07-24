@@ -16,7 +16,7 @@ const About = () => {
         <div className="container mx-auto">
             <div className="flex flex-col md:flex-row gap-4 px-4">
                 <div className="px-4 md:w-2/4 md:justify-start md:flex">
-                    <img className="w-[350px] h-[350px] rounded-xl shadow object-cover" src={profileImg} data-aos="zoom-in"></img>
+                    <img className="w-[350px] sm:h-[350px] rounded-xl shadow object-cover" src={profileImg} data-aos="zoom-in"></img>
                 </div>
                 <div className="flex-col justify-center items-start md:w-3/4 gap-6 inline-flex">
                     <div className="flex-col justify-start items-start gap-4 flex">
