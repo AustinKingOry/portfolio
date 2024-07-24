@@ -9,7 +9,7 @@ const CLIMockup = ({ commands, language }) => {
     }, []);
     const codeString = commands.join('\n');
     return (
-        <div className="cli-mockup w-fit min-w-40 bg-black text-white rounded-lg shadow-lg overflow-hidden">
+        <div className="cli-mockup w-fit min-w-40 max-[480px]:w-full bg-black text-white rounded-lg shadow-lg overflow-hidden">
             <div className="cli-header flex items-center justify-between bg-gray-800 px-3 py-0.5 sm:py-2">
                 <div className="flex items-center">
                     <div className="cli-button bg-red-500 rounded-full w-3 h-3 mr-2"></div>
