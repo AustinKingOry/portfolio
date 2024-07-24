@@ -12,6 +12,9 @@ export default {
         'light-blue': '#BFDBFE',
         'soft-pink': '#FDE2E4',
       },
+      fontFamily: {
+        sans: ['Work Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],

@@ -23,7 +23,7 @@ This repository contains the source code for my personal portfolio built with Re
 2. Navigate to the project directory:
 
    ```bash
-   cd REPOSITORY
+   cd portfolio
    ```
 
 3. Install dependencies:

@@ -52,7 +52,7 @@ export const projects = [
     {
         imgURL: 'https://avatars.githubusercontent.com/u/172502739?s=88&v=4',
         href: "https://www.campoprime.com",
-        name: "Hospillar",
+        name: "Campoprime",
         description: "Campoprime is an EdTech platform that enhances tertiary education with AI-powered tools, collaborative features, and a marketplace for educational content, fostering quality learning and effective peer networking.",
         category: 'Django Rest + React Js',
     },
