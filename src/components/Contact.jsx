@@ -30,7 +30,7 @@ const Contact = () => {
                             </div>
                             <div className="flex-col justify-start items-start gap-1 inline-flex">
                                 <p className="text-[#424e60] text-sm font-normal font-['Work Sans'] leading-tight">{contact.title}:</p>
-                                <a href={contact.value} className="text-[#132138] text-base font-medium font-['Work Sans'] leading-normal">{contact.label}</a>
+                                <a href={contact.value} target="_blank" className="text-[#132138] text-base font-medium font-['Work Sans'] leading-normal">{contact.label}</a>
                             </div>
                         </div>
                         ))}

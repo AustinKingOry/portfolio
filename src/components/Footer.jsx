@@ -1,7 +1,12 @@
 import { favicon } from '../assets/images';
 import { socialMedia, navLinks } from '../constants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useEffect, useState } from "react";
 const Footer = () => {
+    const [currentYear, setCurrentYear] = useState(null)
+    useEffect(()=>{
+        setCurrentYear(new Date().getFullYear())
+    },[])
 // eslint-disable-next-line no-unused-vars
   return (
     <footer className="bg-gray-900">
@@ -21,7 +26,7 @@ const Footer = () => {
         </div>
       <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="" className="hover:underline">Austin King&rsquo;ori</a>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© {currentYear} <a href="" className="hover:underline">Austin King&rsquo;ori</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             {socialMedia.map((link,index)=>(

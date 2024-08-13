@@ -8,23 +8,23 @@ export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#skills", label: "What I do" },
-    { href: "#projects", label: "Project" },
+    { href: "#projects", label: "Projects" },
     { href: "#contact", label: "Contact" },
 ];
 
 
 export const statistics = [
     { value: '6 Y.', label: 'Experience' },
-    { value: '200+', label: 'Projects' },
+    { value: '80+', label: 'Projects' },
     { value: '50+', label: 'Clients' },
 ];
 
 export const contacts = [
-    { value: '+254112685851', label:"+254112685851", title: 'Call Me', icon: faPhone },
+    { value: 'tel:+254112685851', label:"+254112685851", title: 'Call Me', icon: faPhone },
     { value: 'https://www.linkedin.com/in/austin-kings/', label:"Austin Kings", title: 'LinkedIn', icon: faLinkedin },
     { value: 'https://github.com/AustinKingOry', label: 'IamKingOry', title:"Github", icon: faGithub },
     { value: 'https://www.twitter.com/IamKingOry', label:"IamKingOry", title: 'X', icon: faTwitter },
-    { value: 'kingoriaustin01@gmail.com', label:"kingoriaustin01@gmail.com", title: 'Email', icon: faEnvelopeOpen },
+    { value: 'mailto:kingoriaustin01@gmail.com', label:"kingoriaustin01@gmail.com", title: 'Email', icon: faEnvelopeOpen },
 ];
 
 export const skills = [
