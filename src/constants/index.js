@@ -50,11 +50,11 @@ export const skills = [
 
 export const projects = [
     {
-        imgURL: 'https://avatars.githubusercontent.com/u/172502739?s=88&v=4',
+        imgURL: 'https://firebasestorage.googleapis.com/v0/b/hallowed-index-404917.appspot.com/o/static%2Flogo%20white%20bg.png?alt=media&token=359396e7-4cac-4f83-b301-6e078b5faa1c',
         href: "https://www.campoprime.com",
         name: "Campoprime",
         description: "Campoprime is an EdTech platform that enhances tertiary education with AI-powered tools, collaborative features, and a marketplace for educational content, fostering quality learning and effective peer networking.",
-        category: 'Django Rest + React Js',
+        category: 'Django Rest + Supabase + React Js',
     },
     {
         imgURL: 'https://raw.githubusercontent.com/AustinKingOry/hospillar/main/static/img/logo.jpg',
@@ -67,7 +67,7 @@ export const projects = [
         imgURL: 'https://raw.githubusercontent.com/AustinKingOry/nike-react/main/src/assets/images/big-shoe1.png',
         href: "https://www.github.com/AustinKingOry/nike-react",
         name: "Nike Landing Page",
-        description: "A clone of the Nike landing page developed with React Js and Tailwind css.",
+        description: "A clone of the Nike landing page developed with React Js and Tailwind css. Got me started with React.",
         category: 'Frontend (React Js)',
     },
     {
