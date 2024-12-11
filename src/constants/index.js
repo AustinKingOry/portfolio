@@ -36,7 +36,7 @@ export const skills = [
     { value: 'Go', logo: Go, status : 'Learning' },
     { value: 'Rust', logo: Rust, status : 'Learning' },
     { value: 'Javascript', logo: Javascript, status : 'Experienced' },
-    { value: 'React.js', logo: ReactJs, status : 'Mid' },
+    { value: 'React.js', logo: ReactJs, status : 'Experienced' },
     { value: 'Node JS', logo: NodeJs, status : 'Mid' },
     { value: 'Jquery', logo: Jquery, status : 'Experienced' },
     { value: 'Docker', logo: Docker, status : 'Learning' },

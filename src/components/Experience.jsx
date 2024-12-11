@@ -13,7 +13,8 @@ const Experience = () => {
             <h2 className="text-[#333333] text-5xl font-semibold font-['Work Sans'] leading-[56px]">What I do?</h2>
             <div className="flex-col justify-start items-start gap-4 flex">
                 <p className="max-w-xl text-gray-700 text-lg font-normal font-['Work Sans'] leading-normal">I&rsquo;m all about bringing solutions to the problems affecting the human race in every way I can. Through my skills and passion, I aim to effect positive change to the lives of people all over the globe.</p>
-                <p className="max-w-xl text-gray-700 text-lg font-normal font-['Work Sans'] leading-normal">With an unmatched passion for technology and entrepreneurship, I am bringing solutions to the world through software and startup ventures that have impact on a massive scale. But, that is just the surface. 😉</p>
+                <p className="max-w-xl text-gray-700 text-lg font-normal font-['Work Sans'] leading-normal">With an unmatched passion for technology and entrepreneurship, I am bringing solutions to the world through software and startup ventures that have impact on a massive scale. But, that is just the surface. 😉</p>                
+                <p className="max-w-xl text-gray-700 text-lg font-normal font-['Work Sans'] leading-normal">Wanna watch a video to know me? <a href="https://www.youtube.com/shorts/xHEgHjJvR94?feature=share" target="_blank" className="text-blue-700">What do we have here?</a></p>
             </div>
             </div>
         </div>
