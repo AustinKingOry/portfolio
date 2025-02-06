@@ -1,4 +1,4 @@
-import { C,Cpp,CSS3, Django, Docker,  Git, Go, HTML5, Javascript, Jquery, Mysql, NodeJs, Php, Postgres, Python, ReactJs, Rust, Tailwind, } from "../assets/logos";
+import { C,Cpp,CSS3, Django, Docker,  Git, Go, HTML5, Javascript, Jquery, Mysql, NodeJs, Php, Postgres, Python, ReactJs, Tailwind, } from "../assets/logos";
 import { faTwitter, faLinkedin, faGithub,faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
 import { briefcase } from "../assets/images"
@@ -14,7 +14,7 @@ export const navLinks = [
 
 
 export const statistics = [
-    { value: '6 Y.', label: 'Experience' },
+    { value: `'${new Date().getFullYear - 2019} Y.'`, label: 'Experience' },
     { value: '80+', label: 'Projects' },
     { value: '50+', label: 'Clients' },
 ];
@@ -34,7 +34,6 @@ export const skills = [
     { value: 'C', logo: C, status : 'Experienced' },
     { value: 'C++', logo: Cpp, status : 'Experienced' },
     { value: 'Go', logo: Go, status : 'Learning' },
-    { value: 'Rust', logo: Rust, status : 'Learning' },
     { value: 'Javascript', logo: Javascript, status : 'Experienced' },
     { value: 'React.js', logo: ReactJs, status : 'Experienced' },
     { value: 'Node JS', logo: NodeJs, status : 'Mid' },
