@@ -14,7 +14,7 @@ export const navLinks = [
 
 
 export const statistics = [
-    { value: `'${new Date().getFullYear - 2019} Y.'`, label: 'Experience' },
+    { value: `${new Date().getFullYear() - 2019} Y.`, label: 'Experience' },
     { value: '80+', label: 'Projects' },
     { value: '50+', label: 'Clients' },
 ];
@@ -50,10 +50,11 @@ export const skills = [
 export const projects = [
     {
         imgURL: 'https://firebasestorage.googleapis.com/v0/b/hallowed-index-404917.appspot.com/o/static%2Flogo%20white%20bg.png?alt=media&token=359396e7-4cac-4f83-b301-6e078b5faa1c',
-        href: "https://www.campoprime.com",
+        href: null,
         name: "Campoprime",
         description: "Campoprime is an EdTech platform that enhances tertiary education with AI-powered tools, collaborative features, and a marketplace for educational content, fostering quality learning and effective peer networking.",
         category: 'Django Rest + Supabase + React Js',
+        preview: "https://www.campoprime.com",
     },
     {
         imgURL: 'https://raw.githubusercontent.com/AustinKingOry/hospillar/main/static/img/logo.jpg',
@@ -61,6 +62,7 @@ export const projects = [
         name: "Hospillar",
         description: "Multipurpose hospital management system developed with Python Django. This system helps you make data-driven decisions and increase your efficiency at work using fast and secure mechanisms with real-time interactivity and projections.",
         category: 'Django Full Stack',
+        preview:"https://hospillar.onrender.com/",
     },
     {
         imgURL: 'https://raw.githubusercontent.com/AustinKingOry/nike-react/main/src/assets/images/big-shoe1.png',
@@ -68,6 +70,7 @@ export const projects = [
         name: "Nike Landing Page",
         description: "A clone of the Nike landing page developed with React Js and Tailwind css. Got me started with React.",
         category: 'Frontend (React Js)',
+        preview:"https://nike-landing-repl.vercel.app/"
     },
     {
         imgURL: briefcase,
@@ -75,6 +78,7 @@ export const projects = [
         name: "Kejapair",
         description: "Easiest way for college students to rent houses and get roommates that best suite them.",
         category: 'Django Full Stack',
+        preview: null,
     },
     {
         imgURL: briefcase,
@@ -82,6 +86,7 @@ export const projects = [
         name: "Computer Vision with OpenCV and C++",
         description: "This project demonstrates the use of OpenCV and C++ for advanced computer vision tasks. It involves image processing, feature detection, and real-time object tracking. The project highlights the efficiency and performance of C++ in handling computationally intensive vision applications.",
         category: 'C++',
+        preview: null,
     },
     {
         imgURL: briefcase,
@@ -89,6 +94,23 @@ export const projects = [
         name: "Computer Vision with OpenCV and Python",
         description: "This project leverages OpenCV and Python to implement computer vision techniques. It includes tasks such as image processing, object detection, and face recognition. The project showcases the power of computer vision in automating visual tasks, making it applicable to various real-world scenarios.",
         category: 'Python',
+        preview: null,
+    },
+    {
+        imgURL: "https://open-resume-builder.vercel.app/logo.webp",
+        href: "https://github.com/AustinKingOry/resume-builder/",
+        name: "Resume/CV Builder",
+        description: "A user-friendly web app that simplifies resume creation. Users can easily input their details, customize sections, and generate a professional, well-structured PDF resume from their preffered templatee. The intuitive design ensures a seamless experience, making it accessible for job seekers at all levels.",
+        category: 'React, Next.Js, Node.Js, Puppeteer, jsPDF',
+        preview: "https://open-resume-builder.vercel.app/",
+    },
+    {
+        imgURL: "https://metatester.vercel.app/logo.png",
+        href: "https://github.com/AustinKingOry/metatester",
+        name: "Meta Data Fetcher And Preview",
+        description: "A lightweight web tool for testing and previewing metadata for websites. It helps developers and marketers ensure their meta tags display correctly across search engines and social media platforms. Simply input a URL or custom metadata to see how it appears in real-time.",
+        category: 'React, Node.Js, Tailwind CSS',
+        preview: "https://metatester.vercel.app/",
     },
 ];
 
