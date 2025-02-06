@@ -115,7 +115,7 @@ export const projects = [
     {
         imgURL: "https://snake-game-pearl-xi.vercel.app/favicon.ico",
         href: "https://github.com/AustinKingOry/snake-game",
-        name: "Meta Data Fetcher And Preview",
+        name: "Snake Game",
         description: "A modern take on the classic Snake game, built for a fun and engaging experience. Navigate the snake, eat the food, and grow while avoiding collisions! Smooth controls and a clean UI make it enjoyable for all players.",
         category: 'JQuery, Tailwind CSS',
         preview: "https://snake-game-pearl-xi.vercel.app/",

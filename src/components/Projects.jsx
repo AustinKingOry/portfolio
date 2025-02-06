@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { projects } from '../constants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faGlobe } from '@fortawesome/free-solid-svg-icons';
 const Projects = () => {
     useEffect(() => {
         AOS.init({ duration: 300 });
@@ -24,10 +24,18 @@ const Projects = () => {
                     </div>
                     <div className="h-full p-4 flex flex-col justify-between gap-2">
                         <p className="text-base text-gray-700">{project.description}</p>
-                        <a href={project.href} target="_blank" className="inline-flex gap-2 items-center w-fit text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded text-sm px-5 py-2.5 text-center my-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">
-                        Check it out 
-                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                        </a>
+                        <div className="grid grid-cols-2 gap-2">
+                            {project.preview && 
+                            <a href={project.preview} target="_blank" className="inline-flex gap-2 items-center w-fit bg-blue-700 text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center my-2">
+                            Preview 
+                            <FontAwesomeIcon icon={faGlobe} />
+                            </a> }
+                            {project.href && 
+                            <a href={project.href} target="_blank" className="inline-flex gap-2 items-center w-fit text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded text-sm px-5 py-2.5 text-center my-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">
+                            Source Code 
+                            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                            </a> }
+                        </div>
                     </div>
                 </div>
                 ))}
