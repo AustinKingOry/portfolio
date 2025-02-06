@@ -101,7 +101,7 @@ export const projects = [
         href: "https://github.com/AustinKingOry/resume-builder/",
         name: "Resume/CV Builder",
         description: "A user-friendly web app that simplifies resume creation. Users can easily input their details, customize sections, and generate a professional, well-structured PDF resume from their preffered templatee. The intuitive design ensures a seamless experience, making it accessible for job seekers at all levels.",
-        category: 'React, Next.Js, Node.Js, Puppeteer, jsPDF',
+        category: 'React, Next.Js, Node.Js, Puppeteer, TypeScript',
         preview: "https://open-resume-builder.vercel.app/",
     },
     {
@@ -111,6 +111,14 @@ export const projects = [
         description: "A lightweight web tool for testing and previewing metadata for websites. It helps developers and marketers ensure their meta tags display correctly across search engines and social media platforms. Simply input a URL or custom metadata to see how it appears in real-time.",
         category: 'React, Node.Js, Tailwind CSS',
         preview: "https://metatester.vercel.app/",
+    },
+    {
+        imgURL: "https://snake-game-pearl-xi.vercel.app/favicon.ico",
+        href: "https://github.com/AustinKingOry/snake-game",
+        name: "Meta Data Fetcher And Preview",
+        description: "A modern take on the classic Snake game, built for a fun and engaging experience. Navigate the snake, eat the food, and grow while avoiding collisions! Smooth controls and a clean UI make it enjoyable for all players.",
+        category: 'JQuery, Tailwind CSS',
+        preview: "https://snake-game-pearl-xi.vercel.app/",
     },
 ];
 
