@@ -105,6 +105,14 @@ export const projects = [
         preview: "https://open-resume-builder.vercel.app/",
     },
     {
+        imgURL: "https://raw.githubusercontent.com/AustinKingOry/RemindMeExtension/refs/heads/master/icons/icon128.png",
+        href: "https://github.com/AustinKingOry/RemindMeExtension",
+        name: "RemindMe Chrome Extension",
+        description: "A simple Chrome extension that lets users schedule tasks and receive notifications with customizable sounds. Includes a settings page to manage task history and sound preferences. Built with JavaScript, Chrome APIs, and Tailwind CSS for a smooth experience.",
+        category: 'JavaScript (ES6+), Chrome Extensions API, Manifest V3, Tailwind Css',
+        preview: null,
+    },
+    {
         imgURL: "https://metatester.vercel.app/logo.png",
         href: "https://github.com/AustinKingOry/metatester",
         name: "Meta Data Fetcher And Preview",
