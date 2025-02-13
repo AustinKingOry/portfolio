@@ -5,6 +5,7 @@ import { projects } from '../constants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare, faGlobe } from '@fortawesome/free-solid-svg-icons';
 const Projects = () => {
+    const limit = 400;
     useEffect(() => {
         AOS.init({ duration: 300 });
     }, []);
@@ -23,7 +24,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="h-full p-4 flex flex-col justify-between gap-2">
-                        <p className="text-base text-gray-700">{project.description}</p>
+                        <p className="text-base text-gray-700">{project.description.length > limit ? project.description.substring(0, limit) : project.description}</p>
                         <div className="grid grid-cols-2 gap-2">
                             {project.preview && 
                             <a href={project.preview} target="_blank" className="inline-flex gap-2 items-center w-fit bg-blue-700 text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center my-2">
