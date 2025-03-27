@@ -1,6 +1,6 @@
 import { C,Cpp,CSS3, Django, Docker,  Git, Go, HTML5, Javascript, Jquery, Mysql, NodeJs, Php, Postgres, Python, ReactJs, Tailwind, } from "../assets/logos";
 import { faTwitter, faLinkedin, faGithub,faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
 import { briefcase } from "../assets/images"
 
 
@@ -14,14 +14,14 @@ export const navLinks = [
 
 
 export const statistics = [
-    { value: `${new Date().getFullYear() - 2019} Y.`, label: 'Experience' },
+    { value: `${new Date().getFullYear() - 2020} Y.`, label: 'Experience' },
     { value: '80+', label: 'Projects' },
     { value: '50+', label: 'Clients' },
 ];
 
 export const contacts = [
     // { value: 'tel:+254112685851', label:"+254112685851", title: 'Call Me', icon: faPhone },
-    { value: 'https://www.linkedin.com/in/austin-kings/', label:"Austin Kings", title: 'LinkedIn', icon: faLinkedin },
+    { value: 'https://www.linkedin.com/in/austin-kingori/', label:"Austin Kings", title: 'LinkedIn', icon: faLinkedin },
     { value: 'https://github.com/AustinKingOry', label: 'IamKingOry', title:"Github", icon: faGithub },
     { value: 'https://www.twitter.com/IamKingOry', label:"IamKingOry", title: 'X', icon: faTwitter },
     { value: 'mailto:kingoriaustin01@gmail.com', label:"kingoriaustin01@gmail.com", title: 'Email', icon: faEnvelopeOpen },
@@ -35,7 +35,9 @@ export const skills = [
     { value: 'C++', logo: Cpp, status : 'Experienced' },
     { value: 'Go', logo: Go, status : 'Learning' },
     { value: 'Javascript', logo: Javascript, status : 'Experienced' },
+    { value: 'Typescript', logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg", status : 'Experienced' },
     { value: 'React.js', logo: ReactJs, status : 'Experienced' },
+    { value: 'Next.js', logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg", status : 'Mid' },
     { value: 'Node JS', logo: NodeJs, status : 'Mid' },
     { value: 'Jquery', logo: Jquery, status : 'Experienced' },
     { value: 'Docker', logo: Docker, status : 'Learning' },
@@ -45,6 +47,7 @@ export const skills = [
     { value: 'MySQL', logo: Mysql, status : 'Experienced' },
     { value: 'Postgresql', logo: Postgres, status : 'Experienced' },
     { value: 'Git', logo: Git, status : 'Mid' },
+    { value: 'AWS', logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", status : 'Mid' },
 ];
 
 export const projects = [
@@ -134,12 +137,18 @@ export const experience = [
     {role:'Founder & CEO',company:"Campoprime Labs",description:"Campoprime is an EdTech platform that enhances tertiary education with AI-powered tools, collaborative features, and a marketplace for educational content, fostering quality learning and effective peer networking. I am the head of product developement.",duration:"(working here)"},
     {role:'Software Engineer',company:"Hyddroo Harvest",description:"Designed, developed and tested the company's web app in both backend and frontend. Conducted UI/UX and API tests to achieve cost-effective measures and optimise performance."},
     {role:'Co-Founder & C.T.O',company:"Sokomotives Kenya",description:"Developed a full stack web application from scratch, including back-end services, front-end interface, and database."},
+    {        
+        role:'I.T Techician'
+        ,company:"Bingwa Afya Hospital",
+        description:"Monitored and troubleshot of the hospital's Information System. Developed an alternative system for specific use-cases. Maintained and fixed hardware and infrastructure in the insitution.",
+        duration: "2021 - 2022"
+    },
 ]
 
 export const socialMedia = [
     { href: 'https://web.facebook.com/kings.smart.148/', icon: faFacebook, name: "Facebook" },
     { href: 'https://x.com/IamKingOry', icon: faTwitter, name: "X (fka Twitter)" },
-    { href: 'https://www.linkedin.com/in/austin-kings/', icon: faLinkedin, name: "LinkedIn" },
+    { href: 'https://www.linkedin.com/in/austin-kingori/', icon: faLinkedin, name: "LinkedIn" },
     { href: 'https://www.instagram.com/the_white_hat_ke/', icon: faInstagram, name: "Instagram" },
     { href: 'https://github.com/AustinKingOry', icon: faGithub, name: "Github" },
 ];
