@@ -20,7 +20,7 @@ export const statistics = [
 ];
 
 export const contacts = [
-    { value: 'tel:+254112685851', label:"+254112685851", title: 'Call Me', icon: faPhone },
+    // { value: 'tel:+254112685851', label:"+254112685851", title: 'Call Me', icon: faPhone },
     { value: 'https://www.linkedin.com/in/austin-kings/', label:"Austin Kings", title: 'LinkedIn', icon: faLinkedin },
     { value: 'https://github.com/AustinKingOry', label: 'IamKingOry', title:"Github", icon: faGithub },
     { value: 'https://www.twitter.com/IamKingOry', label:"IamKingOry", title: 'X', icon: faTwitter },
