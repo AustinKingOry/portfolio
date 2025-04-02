@@ -68,13 +68,21 @@ export const projects = [
         preview:"https://hospillar.onrender.com/",
     },
     {
-        imgURL: 'https://raw.githubusercontent.com/AustinKingOry/nike-react/main/src/assets/images/big-shoe1.png',
-        href: "https://www.github.com/AustinKingOry/nike-react",
-        name: "Nike Landing Page",
-        description: "A clone of the Nike landing page developed with React Js and Tailwind css. Got me started with React.",
-        category: 'Frontend (React Js)',
-        preview:"https://nike-landing-repl.vercel.app/"
+        imgURL: 'https://mycoverphotos.vercel.app//default.jpg',
+        href: "https://www.github.com/AustinKingOry/mycoverphotos",
+        name: "MyCoverPhotos",
+        description: "Create professional cover images that make your social media profiles stand out and leave a lasting impression",
+        category: "React.Js, TypeScript, html2Canvas, Puppeteer",
+        preview:"https://mycoverphotos.vercel.app/"
     },
+    // {
+    //     imgURL: 'https://raw.githubusercontent.com/AustinKingOry/nike-react/main/src/assets/images/big-shoe1.png',
+    //     href: "https://www.github.com/AustinKingOry/nike-react",
+    //     name: "Nike Landing Page",
+    //     description: "A clone of the Nike landing page developed with React Js and Tailwind css. Got me started with React.",
+    //     category: 'Frontend (React Js)',
+    //     preview:"https://nike-landing-repl.vercel.app/"
+    // },
     {
         imgURL: briefcase,
         href: "https://www.github.com/AustinKingOry/kejapair",
